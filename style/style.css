@@ -1,0 +1,154 @@
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* CLEARFIX */
+.clearfix::after{
+    display: table;
+    clear:both;
+    content: "";
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    background-color: #255ee9;
+    padding: 10px;
+}
+
+.header-contained{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    min-width: 1200px;
+    margin: auto;
+}
+
+.col{   
+    margin:auto;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a{
+    color:white;
+    text-decoration: none;
+    margin:15px;
+}
+
+div button{
+    padding: 12px;
+    border-radius: 30px;
+    border:none;
+}
+
+.hero{
+    background: url("../img/jumbo.png");
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.hero-text{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    text-align: center;
+    padding: 70px;
+}
+
+.hero-text button{
+    margin: auto 10px;
+    padding: 15px 30px;
+    font-size: 17px;
+}
+
+.hero-text h1{
+    font-size: 40px;
+}
+
+.hero-text p{
+    margin: 30px auto 20px auto;
+}
+
+.hero-text button:last-child{
+    background-color: black;
+    color:white;
+}
+
+ /* .section-2{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    margin: auto;
+}
+
+.col-text{
+    max-width: 40%;
+}  */
+
+.contained-hero-content{
+    width: 1200px;
+    margin: auto;
+
+}
+
+.section{
+    /* margin-top:50px; */
+    margin: 50px auto 300px auto;
+}
+
+.section .col{
+    float:left;
+}
+
+.col-image{
+    width: 70%;
+}
+
+.col-text{
+    width: 30%;
+    padding-top: 40px ;
+    margin-left:50px;
+}
+
+.col-text h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.section-5{
+    text-align: center;
+}
+
+.img-sec-5{
+    background: url("../img/item4-big.svg");
+    height: 600px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.section-5-text{
+    padding: 0 200px;
+    margin-bottom: 50px;
+}
+
+.section-5-text h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
