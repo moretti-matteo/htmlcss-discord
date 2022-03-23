@@ -100,10 +100,13 @@ div button{
     max-width: 40%;
 }  */
 
-.contained-hero-content{
+.contained-section{
     width: 1200px;
     margin: auto;
+}
 
+.contained-section button{
+    margin:0 auto;
 }
 
 .section{
@@ -150,5 +153,33 @@ div button{
     font-size: 40px;
     margin-bottom: 20px;
     font-weight: bold;
+}
+
+.section-6{
+    text-align: center;
+    margin-top:50px;
+}
+.section-6 button{
+    background: #8ea1e1;
+    color:#fff;
+    padding: 15px 30px;
+}
+
+.img-sec-6{
+   text-align: center;
+   position: relative;
+   margin-bottom: 40px;
+}
+
+.img-sec-6 img{
+    width: 40%;
+}
+
+.img-sec-6 h2{
+    position:absolute;
+    top:50;
+    left:50%;
+    font-size:30px;
+    transform: translate(-50%,-50%);
 }
 
