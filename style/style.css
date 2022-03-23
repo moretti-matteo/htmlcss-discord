@@ -171,6 +171,14 @@ div button{
    margin-bottom: 40px;
 }
 
+.text-white{
+    color:white;
+}
+
+.text-lilla{
+    color:#7289da;
+}
+
 .img-sec-6 img{
     width: 40%;
 }
@@ -183,3 +191,78 @@ div button{
     transform: translate(-50%,-50%);
 }
 
+footer{
+    background: #23272a;
+    height: 75vh;
+    margin-top: 150px;
+}
+
+.contained-footer{
+    padding-top: 60px;
+    width: 1200px;
+    margin: auto;
+}
+
+.footer-col{
+    float:left;
+    width: 20%;
+    
+}
+
+.col-social h2{
+    margin-bottom: 15px;
+}
+
+.col-social img{
+    height: 20px;
+    vertical-align: middle;
+}
+
+.col-social select{
+    color:white;
+    background: transparent;
+    border:none;
+}
+
+.col-social i{
+    margin:10px 15px auto 0;
+}
+
+.footer-top{
+    margin-bottom: 20px;
+}
+
+.footer-col ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-col ul li{
+    margin:10px auto;
+}
+
+.footer-col ul {
+    list-style-type: none;
+    margin:10px auto;
+
+}
+
+.line-footer{
+    border:1px solid #7289da;
+}
+
+.logo{
+    float: left;
+}
+
+.sign-in{
+    float: right;
+}
+
+.sign-in button{
+    background-color: lightgray;
+}
+
+.footer-bottom{
+    margin-top:30px;
+}
